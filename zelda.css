@@ -1,0 +1,423 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+div > div {
+  width: 10px;
+  height: 10px;
+  /* box-shadow: 0px 0px 1px #333; */
+  float: left;
+}
+.container {
+  width: 180px;
+  height: 380px;
+}
+
+/*Sword outline*/
+div:nth-child(15),
+div:nth-child(32),
+div:nth-child(33),
+div:nth-child(34),
+div:nth-child(50),
+div:nth-child(52),
+div:nth-child(68),
+div:nth-child(70),
+div:nth-child(86),
+div:nth-child(88),
+div:nth-child(104),
+div:nth-child(106),
+div:nth-child(122),
+div:nth-child(124),
+div:nth-child(140),
+div:nth-child(142),
+div:nth-child(158),
+div:nth-child(160),
+div:nth-child(176),
+div:nth-child(178),
+div:nth-child(194),
+div:nth-child(196),
+div:nth-child(212),
+div:nth-child(214),
+div:nth-child(230),
+div:nth-child(231),
+div:nth-child(232) {
+  background: #42c8f5;
+}
+/*sword inline*/
+div:nth-child(51),
+div:nth-child(69),
+div:nth-child(87),
+div:nth-child(105),
+div:nth-child(123),
+div:nth-child(141),
+div:nth-child(159),
+div:nth-child(177),
+div:nth-child(195),
+div:nth-child(213) {
+  background: #defffb;
+}
+
+/*blacks and lines*/
+div:nth-child(246),
+div:nth-child(247),
+div:nth-child(248),
+div:nth-child(249),
+div:nth-child(250),
+div:nth-child(251),
+div:nth-child(252),
+div:nth-child(264),
+div:nth-child(270),
+div:nth-child(275),
+div:nth-child(276),
+div:nth-child(277),
+div:nth-child(278),
+div:nth-child(283),
+div:nth-child(284),
+div:nth-child(285),
+div:nth-child(286),
+div:nth-child(287),
+div:nth-child(292),
+div:nth-child(297),
+div:nth-child(298),
+div:nth-child(299),
+div:nth-child(301),
+div:nth-child(304),
+div:nth-child(309),
+div:nth-child(318),
+div:nth-child(322),
+div:nth-child(326),
+div:nth-child(335),
+div:nth-child(337),
+div:nth-child(338),
+div:nth-child(339),
+div:nth-child(340),
+div:nth-child(344),
+div:nth-child(352),
+div:nth-child(355),
+div:nth-child(358),
+div:nth-child(361),
+div:nth-child(364),
+div:nth-child(367),
+div:nth-child(368),
+div:nth-child(369),
+div:nth-child(373),
+div:nth-child(376),
+div:nth-child(379),
+div:nth-child(381),
+div:nth-child(383),
+div:nth-child(384),
+div:nth-child(389),
+div:nth-child(390),
+div:nth-child(392),
+div:nth-child(394),
+div:nth-child(397),
+div:nth-child(399),
+div:nth-child(402),
+div:nth-child(405),
+div:nth-child(406),
+div:nth-child(408),
+div:nth-child(410),
+div:nth-child(412),
+div:nth-child(415),
+div:nth-child(417),
+div:nth-child(420),
+div:nth-child(422),
+div:nth-child(424),
+div:nth-child(428),
+div:nth-child(430),
+div:nth-child(433),
+div:nth-child(436),
+div:nth-child(439),
+div:nth-child(442),
+div:nth-child(446),
+div:nth-child(448),
+div:nth-child(452),
+div:nth-child(453),
+div:nth-child(454),
+div:nth-child(455),
+div:nth-child(463),
+div:nth-child(465),
+div:nth-child(471),
+div:nth-child(472),
+div:nth-child(474),
+div:nth-child(475),
+div:nth-child(480),
+div:nth-child(481),
+div:nth-child(482),
+div:nth-child(483),
+div:nth-child(488),
+div:nth-child(490),
+div:nth-child(492),
+div:nth-child(494),
+div:nth-child(495),
+div:nth-child(496),
+div:nth-child(497),
+div:nth-child(500),
+div:nth-child(505),
+div:nth-child(508),
+div:nth-child(511),
+div:nth-child(518),
+div:nth-child(523),
+div:nth-child(526),
+div:nth-child(527),
+div:nth-child(528),
+div:nth-child(529),
+div:nth-child(535),
+div:nth-child(537),
+div:nth-child(541),
+div:nth-child(544),
+div:nth-child(547),
+div:nth-child(555),
+div:nth-child(559),
+div:nth-child(562),
+div:nth-child(565),
+div:nth-child(566),
+div:nth-child(573),
+div:nth-child(577),
+div:nth-child(580),
+div:nth-child(582),
+div:nth-child(589),
+div:nth-child(590),
+div:nth-child(592),
+div:nth-child(595),
+div:nth-child(598),
+div:nth-child(599),
+div:nth-child(600),
+div:nth-child(601),
+div:nth-child(605),
+div:nth-child(606),
+div:nth-child(610),
+div:nth-child(614),
+div:nth-child(616),
+div:nth-child(619),
+div:nth-child(620),
+div:nth-child(621),
+div:nth-child(622),
+div:nth-child(623),
+div:nth-child(624),
+div:nth-child(625),
+div:nth-child(626),
+div:nth-child(627),
+div:nth-child(633),
+div:nth-child(639),
+div:nth-child(640),
+div:nth-child(641),
+div:nth-child(642),
+div:nth-child(643),
+div:nth-child(651),
+div:nth-child(656),
+div:nth-child(657),
+div:nth-child(658),
+div:nth-child(659),
+div:nth-child(670),
+div:nth-child(671),
+div:nth-child(672),
+div:nth-child(673) {
+  background: black;
+}
+
+/*red parts*/
+div:nth-child(265),
+div:nth-child(266),
+div:nth-child(267),
+div:nth-child(268),
+div:nth-child(269),
+div:nth-child(591),
+div:nth-child(607),
+div:nth-child(608),
+div:nth-child(634),
+div:nth-child(635),
+div:nth-child(638),
+div:nth-child(654),
+div:nth-child(655) {
+  background: #e80000;
+}
+
+/*Lighter green*/
+div:nth-child(311),
+div:nth-child(312),
+div:nth-child(313),
+div:nth-child(328),
+div:nth-child(329),
+div:nth-child(346),
+div:nth-child(493),
+div:nth-child(512),
+div:nth-child(516),
+div:nth-child(531),
+div:nth-child(532),
+div:nth-child(533),
+div:nth-child(550) {
+  background: #07cf00;
+}
+
+/*Darker green*/
+div:nth-child(293),
+div:nth-child(294),
+div:nth-child(295),
+div:nth-child(296),
+div:nth-child(310),
+div:nth-child(314),
+div:nth-child(315),
+div:nth-child(330),
+div:nth-child(327),
+div:nth-child(331),
+div:nth-child(332),
+div:nth-child(345),
+div:nth-child(347),
+div:nth-child(348),
+div:nth-child(362),
+div:nth-child(363),
+div:nth-child(380),
+div:nth-child(398),
+div:nth-child(416),
+div:nth-child(434),
+div:nth-child(435),
+div:nth-child(498),
+div:nth-child(499),
+div:nth-child(513),
+div:nth-child(514),
+div:nth-child(515),
+div:nth-child(517),
+div:nth-child(530),
+div:nth-child(534),
+div:nth-child(548),
+div:nth-child(549),
+div:nth-child(551),
+div:nth-child(552),
+div:nth-child(567),
+div:nth-child(568),
+div:nth-child(571),
+div:nth-child(572),
+div:nth-child(583),
+div:nth-child(587),
+div:nth-child(588),
+div:nth-child(602),
+div:nth-child(603),
+div:nth-child(604) {
+  background: #048200;
+}
+
+/*lighter skin color*/
+div:nth-child(302),
+div:nth-child(303),
+div:nth-child(319),
+div:nth-child(382),
+div:nth-child(401),
+div:nth-child(425),
+div:nth-child(443),
+div:nth-child(444),
+div:nth-child(458),
+div:nth-child(461),
+div:nth-child(545),
+div:nth-child(546),
+div:nth-child(564),
+div:nth-child(636) {
+  background: #ffdcad;
+}
+/*darker skintone*/
+div:nth-child(320),
+div:nth-child(321),
+div:nth-child(391),
+div:nth-child(400),
+div:nth-child(409),
+div:nth-child(418),
+div:nth-child(419),
+div:nth-child(427),
+div:nth-child(437),
+div:nth-child(438),
+div:nth-child(440),
+div:nth-child(445),
+div:nth-child(456),
+div:nth-child(457),
+div:nth-child(462),
+div:nth-child(476),
+div:nth-child(477),
+div:nth-child(478),
+div:nth-child(479),
+div:nth-child(563),
+div:nth-child(581),
+div:nth-child(617),
+div:nth-child(618),
+div:nth-child(637) {
+  background: #d9af79;
+}
+
+/*Orange*/
+div:nth-child(316),
+div:nth-child(317),
+div:nth-child(333),
+div:nth-child(334),
+div:nth-child(349),
+div:nth-child(350),
+div:nth-child(351),
+div:nth-child(652),
+div:nth-child(653),
+div:nth-child(365),
+div:nth-child(366),
+div:nth-child(365),
+div:nth-child(609) {
+  background: #ff8000;
+}
+
+/*pink hair*/
+div:nth-child(336),
+div:nth-child(353),
+div:nth-child(354),
+div:nth-child(370),
+div:nth-child(371),
+div:nth-child(372),
+div:nth-child(385),
+div:nth-child(386),
+div:nth-child(387),
+div:nth-child(388),
+div:nth-child(403),
+div:nth-child(404),
+div:nth-child(421) {
+  background: #ff4fdc;
+}
+
+/*brown*/
+div:nth-child(356),
+div:nth-child(357),
+div:nth-child(374),
+div:nth-child(375),
+div:nth-child(393),
+div:nth-child(411),
+div:nth-child(429),
+div:nth-child(447),
+div:nth-child(464),
+div:nth-child(473),
+div:nth-child(482),
+div:nth-child(491),
+div:nth-child(509),
+div:nth-child(510) {
+  background: #734525;
+}
+
+/*shield blue*/
+
+div:nth-child(489),
+div:nth-child(506),
+div:nth-child(578),
+div:nth-child(596),
+div:nth-child(597),
+div:nth-child(615) {
+  background: #637bff;
+}
+
+/*Yellow, belt color*/
+
+div:nth-child(536),
+div:nth-child(553),
+div:nth-child(554),
+div:nth-child(569),
+div:nth-child(570),
+div:nth-child(584),
+div:nth-child(585),
+div:nth-child(586) {
+  background: #ffea00;
+}
